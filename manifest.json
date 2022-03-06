@@ -1,0 +1,10 @@
+{
+  "name": "JBZD no ukraine",
+  "description": "Usuwa flage ukrainy na JBZD",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "js": ["main.js"],
+    "matches": ["https://jbzd.com.pl/*"]
+  }]
+}

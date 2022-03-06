@@ -1,0 +1,1 @@
+document.querySelector('.nav-logo').style.width = '55px';
